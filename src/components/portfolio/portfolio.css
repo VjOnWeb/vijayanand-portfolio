@@ -1,6 +1,4 @@
-#portfolio{
-    padding-top: 109rem;
-}
+
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -38,6 +36,9 @@
 
 /*---- Media queries (Medium device) ------*/
 @media screen and (max-width:1024px){
+    #portfolio{
+        padding-top: 109rem;
+    }
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
@@ -46,6 +47,9 @@
     
     /*---- Media queries (Small device) ------*/
     @media screen and (max-width:600px){
+        #portfolio{
+            padding-top: 109rem;
+        }
         .portfolio__container{
             grid-template-columns: 1fr;
             gap: 1rem;
