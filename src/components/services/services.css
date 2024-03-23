@@ -52,18 +52,25 @@
 
 /*---- Media queries (Medium device) ------*/
 @media screen and (max-width:1024px){
-    .services_container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
+        #services{
+            padding-top: 4rem;
+        }
+        .services_container{
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
 
-    .service{
-        height: auto;
-    }
+        .services{
+            height: auto;
+            padding-top: 4rem;
+        }
     }
     
     /*---- Media queries (Small device) ------*/
     @media screen and (max-width:600px){
+        #services{
+            padding-top: 4rem;
+        }
         .services_container{
             grid-template-columns: 1fr;
             gap: 1.5rem;
