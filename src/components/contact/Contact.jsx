@@ -2,8 +2,8 @@ import emailjs from 'emailjs-com';
 import React, { useRef, useState } from 'react';
 import { BsWhatsapp } from "react-icons/bs";
 import { FiSend } from "react-icons/fi";
+import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
 import './contact.css';
 
 const Contact = () => {
@@ -40,17 +40,22 @@ const Contact = () => {
             <a href="mailto:vijayanandvj1998@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Vijay Anand</h5>
             <a href="mailto:vijayanandvj1998@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-          </article>
+          </article> */}
 
           <article className="contact__option">
+            <IoCallOutline className='contact__option-icon'/>
+            <h5>Call me @</h5>
+            <h5><a href="tel:+918838301883">+91 8838301883</a></h5>
+            </article>
+
+            <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5><a href="tel:+918838301883">+91 8838301883</a></h5>
             <a href="https://wa.me/918838301883" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>

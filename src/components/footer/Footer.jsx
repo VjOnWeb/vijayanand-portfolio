@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-sections">
-          <h3>Sections</h3>
+          <h2>Sections</h2>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-social">
-          <h3>Follow Us</h3>
+          <h2>Follow Us</h2>
           <ul>
             <li><a href="https://facebook.com">Facebook</a></li>
             <li><a href="https://twitter.com">Twitter</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+        <p>&copy; 2024 VjWorks. All Rights Reserved.</p>
       </div>
     </footer>
   );
