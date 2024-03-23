@@ -32,7 +32,9 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
+.desc{
+    color:rgb(120, 188, 247)
+}
 /*---- Media queries (Medium device) ------*/
 @media screen and (max-width:1024px){
     .portfolio__container{

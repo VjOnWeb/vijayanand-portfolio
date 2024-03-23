@@ -2,7 +2,7 @@ import React from 'react';
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 
-import AboutMe from '../../assets/me-about.jpg';
+import AboutMe from '../../assets/about-vj-cut.png';
 import './about.css';
 
 const About = () => {

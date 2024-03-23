@@ -1,5 +1,5 @@
 import React from 'react'
-import VJ from '../../assets/vj.png'
+import VJ from '../../assets/vj-new.png'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocilas'
 import './header.css'
