@@ -53,7 +53,8 @@
 /*---- Media queries (Medium device) ------*/
 @media screen and (max-width:1024px){
         #services{
-            padding-top: 4rem;
+            /* padding-top: 4rem; */
+            padding-top: 33rem;
         }
         .services_container{
             grid-template-columns: 1fr 1fr;
@@ -69,7 +70,7 @@
     /*---- Media queries (Small device) ------*/
     @media screen and (max-width:600px){
         #services{
-            padding-top: 4rem;
+            padding-top: 33rem;
         }
         .services_container{
             grid-template-columns: 1fr;
