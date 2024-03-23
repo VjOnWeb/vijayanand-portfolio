@@ -2,6 +2,7 @@ import React from 'react'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 import './portfolio.css'
 
 const data = [
@@ -29,9 +30,10 @@ const data = [
   },
   {
     id: 4,
-    image: IMG3,
+    image: IMG4,
     title: 'Personal Portfolio',
-    github: 'https://github.com/VjOnWeb/'
+    desc:'You are viewing It',
+    github: 'https://github.com/VjOnWeb/vijayanand-portfolio',
   }
 ]
 

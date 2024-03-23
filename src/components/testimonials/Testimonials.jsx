@@ -9,13 +9,16 @@ const Testimonials = () => {
         <h2>Testimonials</h2>
         <div className='testimonial'>
           <div className='testimonial-content'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum leo ut purus consectetur, ac elementum odio cursus.</p>
+            <p>Name: Vijay Anand</p>
+            <p>Web Application Developer</p>
+            <p>Since 2021</p>
+            <p>Overall Experience: 4+ years</p>
           </div>
           <div className='testimonial-author'>
             <img src='https://via.placeholder.com/150' alt='Author' />
             <div>
-              <h4>John Doe</h4>
-              <p>CEO, Company Name</p>
+              <h4>Vijay Anand R</h4>
+              <p>Vj Works</p>
             </div>
           </div>
         </div>
