@@ -7,34 +7,34 @@ const Services = () => {
     <section id='services'>
       <h5>What I Offer</h5>
       <h2>Services</h2>
-      <div className="container services_container">
+      <div className="container services__container">
         <article className="service">
-          <div className="service_head">
+        <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
-          <ul className='service_list'>
+          <ul className='service__list'>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -42,36 +42,36 @@ const Services = () => {
         {/* ...........End of ui/ux............... */}
 
         <article className="service">
-          <div className="service_head">
+        <div className="service__head">
             <h3>Web Development</h3>
           </div>
-          <ul className='service_list'>
+          <ul className='service__list'>
             <li>
-              <FaCheck className='service_list_icon'/>
+            <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -80,32 +80,32 @@ const Services = () => {
 
 
         <article className="service">
-          <div className="service_head">
+          <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
-          <ul className='service_list'>
+          <ul className='service__list'>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <FaCheck className='service_list_icon'/>
+              <FaCheck className='service__list__icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>

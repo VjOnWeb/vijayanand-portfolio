@@ -38,7 +38,7 @@
 
 /* ..............form........... */
 
-form {
+form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -51,13 +51,13 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: rgb(69, 173, 237);
+    color:rgb(120, 188, 247)
 }
 
 @media screen and (max-width:1024px){
     .container.contact__container{
         grid-template-columns: 1fr;
-        gap: 5rem;
+        gap: 2rem;
     }
 }
     /*---- Media queries (Small device) ------*/

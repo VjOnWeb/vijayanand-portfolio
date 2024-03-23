@@ -21,7 +21,7 @@ const Header = () => {
 }
   return (
     <header>
-      <div className="container header_container">
+      <div className="container header__container">
         <h5 id='greetings'> {getGreeting()}, I'm</h5>
         <h1> Vijay Anand</h1>
         <h5 className="text-light"> FullStack Developer</h5>
@@ -31,9 +31,7 @@ const Header = () => {
         <div className="me">
           <img src={VJ} alt="me" />
         </div>
-      <a href="#contact" className="scroll_down" > 
-        Scroll Down</a>
-
+        <a href="#contact" className='scroll__down'>Scroll Down </a>
       </div>
     </header>
   )

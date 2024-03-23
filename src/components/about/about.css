@@ -1,41 +1,36 @@
-.about_container{
+.about__container{
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap:15%;
 }
 
-/*hover Image Effects*/
-.about_me{
+.about__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display: grid;
     place-items: center;
 }
 
-.about_me-image{
+.about__me-image{
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
+    transition: var(--transition);
 }
 
-.about_me-image:hover{
+.about__me-image:hover{
     transform: rotate(0deg);
 }
 
-.about_cards{
+.about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
-.about_card{
+.about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -44,63 +39,63 @@
     transition: var(--transition);
 }
 
-.about_card:hover{
+.about__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.about_icon{
+.about__icon{
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.about_card h5{
+.about__card h5{
     font-size: 0.9rem;
 }
 
-.about_card small{
+.about__card small{
     font-size: 0.7rem;
     color: var(--color-light);
 }
 
-.about_content p{
+.about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
 /*---- Media queries (Medium device) ------*/
 @media screen and (max-width:1024px){
-    .about_container{
+    .about__container{
         grid-template-columns: 1fr;
         gap: 0;
     }
-    .about_me{
+    .about__me{
         width: 50%;
         margin: 2rem auto 4rem;
     }
-    .about_content p{
+    .about__content p{
         margin: 1rem 0 1.5rem;
     }
     }
     
     /*---- Media queries (Small device) ------*/
     @media screen and (max-width:600px){
-        .about_me{
+        .about__me{
             width: 65%;
             margin: 0 auto 3rem;
         }
-        .about_cards{
+        .about__cards{
             grid-template-columns: 1fr 1fr;
             gap:1rem;
         }
 
-        .about_content{
+        .about__content{
             text-align: center;
         }
 
-        .about_container p{
+        .about__container p{
             margin: 1.5rem 0;
         }
     }
