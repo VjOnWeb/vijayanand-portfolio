@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vijayanand-portfolio/static/css/main.902a3e47.css",
+    "main.css": "/vijayanand-portfolio/static/css/main.3280effc.css",
     "main.js": "/vijayanand-portfolio/static/js/main.f5e50324.js",
     "static/media/vj.png": "/vijayanand-portfolio/static/media/vj.043ce623916f1ca29de3.png",
     "static/media/resume.pdf": "/vijayanand-portfolio/static/media/resume.12a5647a5552924146a3.pdf",
@@ -9,11 +9,11 @@
     "static/media/portfolio1.jpg": "/vijayanand-portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "static/media/portfolio3.jpg": "/vijayanand-portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "index.html": "/vijayanand-portfolio/index.html",
-    "main.902a3e47.css.map": "/vijayanand-portfolio/static/css/main.902a3e47.css.map",
+    "main.3280effc.css.map": "/vijayanand-portfolio/static/css/main.3280effc.css.map",
     "main.f5e50324.js.map": "/vijayanand-portfolio/static/js/main.f5e50324.js.map"
   },
   "entrypoints": [
-    "static/css/main.902a3e47.css",
+    "static/css/main.3280effc.css",
     "static/js/main.f5e50324.js"
   ]
 }
