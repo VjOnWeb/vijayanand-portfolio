@@ -51,6 +51,7 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
+    color: rgb(69, 173, 237);
 }
 
 @media screen and (max-width:1024px){
