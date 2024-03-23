@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+import { GrWorkshop } from "react-icons/gr";
 import './nav.css';
 
 const Nav = () => {
@@ -36,10 +36,11 @@ const Nav = () => {
   return (
     <nav style={{ opacity: visible ? 1 : 0.4 }}> {/* Toggle opacity based on visibility */}
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} title="Home"><AiOutlineHome /></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} title="About"><AiOutlineUser /></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} title="About Me"><AiOutlineUser /></a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''} title="Experience"><BiBook /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''} title="Contact"><BiMessageSquareDetail /></a>
-      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} title="Services"><RiServiceLine /></a>
+      {/* <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''} title="Services"><RiServiceLine /></a> */}
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''} title="Portfolio of Projects"><GrWorkshop /></a>
     </nav>
   );
 };

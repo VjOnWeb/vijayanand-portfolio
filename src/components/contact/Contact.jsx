@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com';
 import React, { useRef, useState } from 'react';
 import { BsWhatsapp } from "react-icons/bs";
+import { FiSend } from "react-icons/fi";
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import './contact.css';
@@ -19,6 +20,7 @@ const Contact = () => {
       await emailjs.sendForm('service_zsvd17n', 'template_8delt13', formRef.current, 'sdsTWR38bNtf16GMh');
       setLoading(false);
       setShowSuccessPopup(true);
+      formRef.current.reset();
     } catch (error) {
       setLoading(false);
       console.log('FAILED...', error.text);
@@ -54,14 +56,24 @@ const Contact = () => {
         </div>
 
         <form ref={formRef} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required/>
-          <input type="email" name='email' placeholder='Your Email' required/>
-          <textarea name='message' rows="7" placeholder='Your Message' required/>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <label htmlFor="name">Your Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+          
+          <label htmlFor="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+          
+          <label htmlFor="message">Your Message:</label>
+          <textarea id="message" name="message" rows="7" placeholder="Your Message" required />
+          
+          <button type="submit" className="btn btn-primary"><FiSend /> Send Message</button>
         </form>
 
         
-        {loading && <div className="loader">Loading...</div>}
+        {loading && (
+          <div className="loader">
+            <div className="spinner"></div>
+          </div>
+        )}
         {showSuccessPopup && (
           <div className="success-popup">
             <p>Message sent successfully!</p>
