@@ -24,3 +24,12 @@
     background-color: #0056b3;
   }
   
+  @media screen and (max-width : 1024px) {
+
+        .back-to-top-button {
+          bottom: 28px;
+           right: 25px;
+          width: 30px;
+          height: 30px;
+        }
+  }
